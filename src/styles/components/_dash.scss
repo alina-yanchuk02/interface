@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+
+.dashTitle {
+    margin-left: 5%;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-top: 3%;  
+    color: black;
+    font-family: "PermanentMarker";
+    opacity: 1; 
+    margin-bottom: 0px;
+}
+
+.dashCard1 {
+    height: 178px;
+    width: 330px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.dashCard2 {
+    margin: 30px;
+    height: 100%;
+    width: calc(96% - 0px);
+    background-color: white;
+}
+
+.dashCard3 {
+    height: 178px;
+    width: 680px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+.dashCardTitle {
+    font-size: 50px;
+    margin-left: 60px;
+    
+}
+
+.dashCard3Title {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 5px;
+    
+}
+
+.dashTitleSubheading {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-right: 2%;
+    font-size: 21px;
+    letter-spacing: 0.8px;
+    font-weight: 550;
+    transform: translateY(20px);
+    color: rgb(64, 62, 49);
+    font-family: "PermanentMarker";
+  }
+
+.dashCard2Title {
+    font-size: 50px;
+    margin-left: 100px;
+    
+}
+
+.dashCardSubtitle {
+    font-size: 16px;
+    margin-left: 150px;
+
+}
+
+.dashCard3Subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 25px;
+ 
+
+}
+
+.dashCard3SubSubtitle {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 250px;
+
+}
+
+.titleGraph {
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: "PermanentMarker";
+
+}
+
+.subtitleGraph {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 100px;
+    font-family: "PermanentMarker";
+    color: rgb(64, 62, 49);
+}
+
+.legendaGraph {
+    font-size: 15px;
+    margin-left: 55px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 62, 49);
+}
+
+.subtitleGraphSpecial {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-family: "PermanentMarker";
+    color: #edcb4e;
+}
+
+.subtitleGraphEnd {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-family: "PermanentMarker";
+    color: rgb(64, 62, 49);
+}

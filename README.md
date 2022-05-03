@@ -1,0 +1,1 @@
+Frontend para o projeto de classificação automática de notícias estigmatizantes online.

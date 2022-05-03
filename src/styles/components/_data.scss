@@ -1,0 +1,253 @@
+.dataTitle {
+    margin-left: 9%;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-top: 5%;  
+    color: black;
+    font-family: "PermanentMarker";
+    opacity: 1; 
+    margin-bottom: 30px;
+}
+
+.dataBox {
+    width: 80px;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+.fact1 {
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 70px;
+   
+}
+
+.fact1img {  
+    height: 270px;
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-size:cover;
+    background-repeat: space;
+}
+
+.fact1content {
+    font-size: 18px;
+      letter-spacing: 0.8px;
+      font-weight: 550;
+      color: rgb(64, 62, 49);
+      font-family: "PermanentMarker";
+      margin-top: 15px;
+      margin-left: 20px;
+      text-align: center;
+}
+
+
+.fact3 {
+    width: 460px;
+    margin-top: 30px;
+    margin-left:90px;
+
+}
+
+.fact3content {
+    font-size: 20px;
+      letter-spacing: 0.8px;
+      font-weight: 550;
+      color: rgb(125, 57, 57);
+      font-family: "PermanentMarker";
+      
+}
+
+
+.fact4 {
+    width: 450px;
+    margin-top: 35px;
+    margin-left: 0px;
+
+}
+
+.fact4content {
+    font-size:17px;
+      letter-spacing: 0.8px;
+ 
+      color: rgb(64, 62, 49);
+      font-family: "PermanentMarker";
+      
+}
+
+.dataCard1 {
+    width: calc(95% - 0px);
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+}
+
+
+.dataCard2 {
+    width: calc(95% - 0px);
+   
+    margin-right: 4%;
+    margin-left: 4%;
+  
+    margin-bottom: 3%;
+}
+
+.dataTitleJornais {
+    font-size: 21px;
+      letter-spacing: 0.8px;
+      font-weight: 550;
+      color: rgb(64, 62, 49);
+      font-family: "PermanentMarker";
+      margin-left: 30px;
+      margin-top: 20px;
+}
+
+.dataFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.dataFontEnumerate {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+.dataFontSpecial {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+
+.dataFontList {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    margin: 30px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+
+.dataFontJournal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+   text-align: center;
+   font-weight: 600;
+}
+
+.dataFontModel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+   text-align: center;
+   font-weight: 600;
+}
+
+.iaImg {
+    width: calc(95% - 0px);
+    height: 600px;
+    margin: 30px;
+    
+}
+
+.arqImg {
+    width: calc(80% - 10px);
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+    
+}
+
+.heroJournal {
+   
+    background: white;
+  }
+  
+  .hero-bodyJournal {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 50px;
+   
+  }
+
+  .containerJournal2 {
+    margin-top: 40px;
+    margin-left: 180px;
+  }
+
+  .containerModel2 {
+    margin-top: 0px;
+    margin-left: 180px;
+  }
+
+.divCard {
+    width: 240px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+.divCardModel {
+    width: 240px;
+    height: 210px;
+    margin-right: 20px;
+}
+
+.divTitleJournal {
+    width: 200px;
+    height: 280px;
+
+}
+
+.divCard2 {
+    width: 240px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+
+.boxJournal {
+    height: 250px;
+}
+
+.boxModel {
+    height: 180px;
+}
+
+
+.journalImg {
+    height: 250px;
+}
+
+.modelImg {
+    height: 170px;
+}
+
+
+.containerJournal {
+    max-width: 1300px;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .rowJournal {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }

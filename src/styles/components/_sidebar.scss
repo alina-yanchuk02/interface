@@ -1,0 +1,139 @@
+.cr-sidebar {
+  // @include media-breakpoint-down(md) {
+  //   display: none;
+  // }
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  
+  left: -$cr-sidebar-width;
+  z-index: 5;
+  width: $cr-sidebar-width;
+  font-weight: 200;
+  color: #fff;
+  background-position: center center;
+  background-size: cover;
+  transition: left 0.1s ease-in;
+
+  + .cr-content {
+    transition: margin 0.1s ease-in;
+  }
+
+  &::after,
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+  }
+
+  &::before {
+    background: rgb(21, 26, 25);
+    opacity: 0.37;
+    
+  }
+
+  &::after {
+    z-index: 3;
+width: 320px;
+    opacity: 1;
+  }
+
+  &[data-image]:after {
+    opacity: 0.77;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 4;
+    height: calc(100vh - 20px);
+    padding-bottom: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 320px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 320px;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  &__nav-item-collapse {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__nav-item-icon {
+    // @include media-breakpoint-down(md) {
+    //   padding: 0;
+    //   margin: 0 auto;
+    // }
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+  }
+
+  &--open {
+    left: 0;
+    transition: left 0.2s ease-in;
+
+    + .cr-content {
+      margin: 0 0 0 $cr-sidebar-width;
+      transition: margin 0.2s ease-in;
+    }
+  }
+
+  .nav {
+    margin-top:60px;
+    
+    .nav-item {
+      margin: 15px 10px;
+      color: theme-color(light);
+      border-radius: 4px;
+      opacity: 1;
+    }
+
+    .nav-link {
+      // @include media-breakpoint-down(md) {
+      //   padding: .5rem;
+      // }
+      color: theme-color(light);
+
+      &:hover {
+        background: rgba(theme-color(light), 0.60);
+      }
+    }
+  }
+}
+
+.barTitle {
+  margin-left: 9%;
+  margin-top:20px;
+  margin-right: 15px;
+  font-size: 21px;
+  letter-spacing: 0.8px;
+  font-weight: 550;
+  transform: translateY(20px);
+  color: #f9c74f;
+  font-family: "PermanentMarker";
+}
